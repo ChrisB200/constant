@@ -1,0 +1,464 @@
+{
+  "Squat": {
+    "name": "Squat",
+    "start_position": "Standing with the bar resting on your trapezium and shoulders. Grasp the bar with your hands for a good support. Keep your head straight.",
+    "equipment_required": ["Barbell"],
+    "execution": {
+      "main": "Bend your knees and hips as if you were sitting down. While keeping your back straight, let your buttocks go backwards, which will tilt your chest slightly forwards to make the movement as natural as possible. The moment your thighs are parallel to the ground, move upwards, doing the movement in the opposite direction. Given the complexity of this movement, ask a trainer in your gym to show you how to perform it correctly the first time.",
+      "steps": []
+    }
+  },
+  "Leg Press": {
+    "name": "Leg Press",
+    "start_position": "Sitting on the press bench, feet flat on the platen, shoulder width apart.",
+    "equipment_required": ["Leg press machine"],
+    "execution": {
+      "main": "Release the manual safety catch and slowly lower the load by bringing your knees towards your chest. When your knees are at a 90\u00b0 angle, pause for a moment and then slowly raise the load. To protect your knees, stop the movement just before your legs are fully extended. During the movement, do not lift your buttocks off the bench.",
+      "steps": []
+    }
+  },
+  "Leg Extension": {
+    "name": "Leg Extension",
+    "start_position": "Adjust the leg extension so that when you sit down your knees are at the edge of the bench and your ankles are just below the footrest. Sit with your back firmly against the backrest, holding the handles on the sides.",
+    "equipment_required": ["Leg Extension machine"],
+    "execution": {
+      "main": "Extend your legs until they are fully extended. Hold the load for a moment by contracting your quadriceps, then return to the lowered position.",
+      "steps": []
+    }
+  },
+  "Lunge": {
+    "name": "Lunge",
+    "start_position": "Standing with legs hip-width apart, one dumbbell in each hand.",
+    "equipment_required": ["Dumbbells"],
+    "execution": {
+      "main": "Keeping the bust straight, take a step forward and slowly descend until the forward thigh is parallel to the ground. Then return to the original position. Once you have completed your series, do the same with the other leg.",
+      "steps": []
+    }
+  },
+  "Lying Leg Curl": {
+    "name": "Lying Leg Curl",
+    "start_position": "Lie on your stomach on the \"leg curl lying down\" machine with the back of your ankles pressed against the footrest. Grasp the handles.",
+    "equipment_required": ["Leg curl machine"],
+    "execution": {
+      "main": "Leaning firmly on the bench, bend your legs as far as possible. Hold the load for a moment in the high position by contracting your ischial muscles, then slowly return to the low position.",
+      "steps": []
+    }
+  },
+  "Hack Squat": {
+    "name": "Hack Squat",
+    "start_position": "Standing in the \"hack squat\" machine, trapezes under the pads, feet on the footrest, shoulder-width apart.",
+    "equipment_required": ["Hack squat machine"],
+    "execution": {
+      "main": "Release the manual safety catch and slowly bend the knees. When your knees are at a 90\u00b0 angle, pause for a moment and then slowly raise the load. Keep your back firmly against the backrest.",
+      "steps": []
+    }
+  },
+  "Seated Leg Curl": {
+    "name": "Seated Leg Curl",
+    "start_position": "Adjust the leg curl sitting machine so that when you are sitting, the bottom of your knees are at the edge of the bench and the back of your ankles are just beyond the footrest. Sit with your back firmly against the backrest, holding the handles on the sides.",
+    "equipment_required": ["Seated leg curl machine"],
+    "execution": {
+      "main": "Bend your legs as far as possible. Hold the load for a moment in this position by contracting your ischial muscles, then return to the initial position.",
+      "steps": []
+    }
+  },
+  "Single Leg Extension": {
+    "name": "Single Leg Extension",
+    "start_position": "Adjust the leg extension so that when you sit, your knee is at the edge of the bench and your ankle is just below the footrest. Sit with your back firmly against the backrest, holding the handles on the sides.",
+    "equipment_required": ["Leg extension machine"],
+    "execution": {
+      "main": "Extend your leg until it is fully extended. Hold the load for a moment in the high position by contracting your quadriceps, then return to the low position. Once your series is completed, do the same with the other leg.",
+      "steps": []
+    }
+  },
+  "Front Squat": {
+    "name": "Front Squat",
+    "start_position": "Standing with the bar resting on your upper chest and deltoids. Grasp the bar with your hands for a good support. Keep your head straight.",
+    "equipment_required": ["Barbell"],
+    "execution": {
+      "main": "Bend your knees and hips as if you were sitting down. While keeping your back straight, let your buttocks go backwards, which will tilt your chest slightly forwards to make the movement as natural as possible. The moment your thighs are parallel to the ground, move upwards, doing the movement in the opposite direction. Given the complexity of this movement, ask a trainer in your gym to show you how to perform it correctly the first time.",
+      "steps": []
+    }
+  },
+  "Dumbbell Stiff-Leg Deadlift": {
+    "name": "Dumbbell Stiff-Leg Deadlift",
+    "start_position": "Stand with feet shoulder width apart and toes facing forward. Bend knees slightly and push your chest out. Hold a dumbbell in each hand, resting on your upper thighs.",
+    "equipment_required": ["Dumbbell"],
+    "execution": {
+      "main": "Keeping your legs stiff, bow forward and lower the weights towards the ground. Pause when your hamstrings are tight, and then return to the starting position. Keep your back straight and shoulders back throughout.",
+      "steps": []
+    }
+  },
+  "Barbell Stiff-Leg Deadlift": {
+    "name": "Barbell Stiff-Leg Deadlift",
+    "start_position": "Stand with feet shoulder width apart and toes facing forward. Bend knees slightly and push your chest out. Grasp a barbell resting on your upper thighs, with hands in pronation shoulder width.",
+    "equipment_required": ["Barbell"],
+    "execution": {
+      "main": "Keeping your legs stiff, bow forward and lower the weight towards the ground. Pause when your hamstrings are tight, and then return to the starting position. Keep your back straight and shoulders back throughout.",
+      "steps": []
+    }
+  },
+  "Dumbbell Goblet Squat": {
+    "name": "Dumbbell Goblet Squat",
+    "start_position": "Stand with feet slightly wider than shoulder-width apart, holding a dumbbell between your hands. Have the dumbbell resting at chest height with hands holding the top of the dumbbell and shoulders pointed down. Push your chest out.",
+    "equipment_required": ["Dumbbell"],
+    "execution": {
+      "main": "Take a deep breath and then squat your glutes down, pushing your heels into the ground. Pause when your thighs are at least parallel with the ground, go lower if you can. Pause, and then rise back up again. Keep your back straight throughout.",
+      "steps": []
+    }
+  },
+  "Knee Tuck Jumps": {
+    "name": "Knee Tuck Jumps",
+    "start_position": "Standing",
+    "execution": {
+      "main": "Bend your knees slightly to gain momentum, then jump by bringing your knees up and as close to your chest as possible.",
+      "steps": []
+    }
+  },
+  "Burpees": {
+    "name": "Burpees",
+    "start_position": "Start in a squat position with your hands on the ground and your head in line with the body.",
+    "execution": {
+      "main": "While holding onto your hands, move both legs backwards into a face-up position and perform a push-up. Without stopping, bring your legs back to the initial squatting position, then perform a vertical jump by raising your hands towards the sky.",
+      "steps": []
+    }
+  },
+  "Bodyweight Squat": {
+    "name": "Bodyweight Squat",
+    "start_position": "Stand upright with your feet slightly wider than hip-width apart. Hold your arms out in front of you.",
+    "execution": {
+      "main": "Keeping your chest up and back straight, brace your core while you push your hips backwards into a sitting position. Lower yourself until your thighs are parallel or close to parallel with the ground. Pause and then push yourself back up through your whole foot to the starting position. Keep your knees from caving in at any point during the movement.",
+      "steps": []
+    }
+  },
+  "1.5 Rep Bodyweight Squats": {
+    "name": "1.5 Rep Bodyweight Squats",
+    "start_position": "Stand upright with your feet slightly wider than hip-width apart.",
+    "execution": {
+      "main": "Keeping your chest up and back straight, brace your core while you push your hips backwards into a sitting position. Lower yourself until your thighs are parallel or close to parallel with the ground. Pause and then push yourself back up through your whole foot halfway to the starting position. Pause and lower yourself back down to parallel. Pause one more time at the bottom before pushing yourself back up to the starting position. Keep your knees from caving in at any point during the movement.",
+      "steps": []
+    }
+  },
+  "Medicine Ball Squat": {
+    "name": "Medicine Ball Squat",
+    "start_position": "Stand upright with your feet shoulder-width apart. Hold the medicine ball with both hands in front of your chest.",
+    "equipment_required": ["Medicine Ball"],
+    "execution": {
+      "main": "Keeping your chest up and back straight, brace your core while you drive your hips back into a sitting position. Lower yourself until your thighs are parallel or close to parallel with the ground. Pause and then push yourself back up through your whole foot to the starting position. Keep your knees from caving in at any point during the movement.",
+      "steps": []
+    }
+  },
+  "Barbell Bulgarian Split Squat": {
+    "name": "Barbell Bulgarian Split Squat",
+    "start_position": "Rack the bar on your trapezius muscle and shoulders. Rest one leg on the bench behind you, with your laces down. Place your front foot (your squatting leg) about 3 footsteps in front of the bench. Keep a shoulder-width stance, your back foot should not be directly behind your front.",
+    "equipment_required": ["Barbell"],
+    "execution": {
+      "main": "Squat down with your standing leg while bracing your core and keeping your chest tall until your back knee almost touches the floor. Pause and push up through your front foot only and return to the starting position. Do not allow your knee to move in or out during the movement.",
+      "steps": []
+    }
+  },
+  "Bodyweight Bulgarian Split Squat": {
+    "name": "Bodyweight Bulgarian Split Squat",
+    "start_position": "Rest one leg on the bench behind you, with your laces down. Place your front foot (your squatting leg) about 3 footsteps in front of the bench. Keep a shoulder-width stance, your back foot should not be directly behind your front. Place your hands on your hips.",
+    "equipment_required": ["Bench"],
+    "execution": {
+      "main": "Squat down with your standing leg while bracing your core and keeping your chest tall until your back knee almost touches the floor. Pause and push up through your front foot only and return to the starting position. Do not allow your knee to move in or out during the movement.",
+      "steps": []
+    }
+  },
+  "Mini-Band Air Squat": {
+    "name": "Mini-Band Air Squat",
+    "start_position": "Place the mini-band around both legs above your knees. Stand with your feet about shoulder-width apart.",
+    "equipment_required": ["Mini-Band"],
+    "execution": {
+      "main": "Keeping your chest up and back straight, brace your core while you drive your hips back into a sitting position. Stretch the band and keep it tight by driving your knees outward throughout the movement. Lower yourself until your thighs are parallel or close to parallel with the ground. Pause and then push yourself back up through your whole foot to the starting position. Keep your knees from caving in at any point during the movement.",
+      "steps": []
+    }
+  },
+  "Jump Squat": {
+    "name": "Jump Squat",
+    "start_position": "Stand up straight with your feet in a wide stance, outside of your hips.",
+    "execution": {
+      "main": "Keeping your chest tall, drive your hips down and back to just above your knees. Drive up with your arms, swinging them forward, to push yourself explosively off the floor. Land with soft knees and lower back down into the squat position. Keep your knees from caving inwards at any point during the movement.",
+      "steps": []
+    }
+  },
+  "Wall Sit": {
+    "name": "Wall Sit",
+    "start_position": "Stand upright with your back flat against the wall with feet about hip-width or slightly wider apart.",
+    "equipment_required": ["A Flat Wall"],
+    "execution": {
+      "main": "Lower yourself down into a squatting position by stepping your feet forward, while keeping your back flat against the wall. Stop when your thighs are parallel with the floor. Hold this position and then return to standing once completed.",
+      "steps": []
+    }
+  },
+  "Medicine Ball Deadlift": {
+    "name": "Medicine Ball Deadlift",
+    "start_position": "Rack the bar on your trapezius muscle and shoulders. Rest one leg on the bench behind you, with your laces down. Place your front foot (your squatting leg) about 3 footsteps in front of the bench. Keep a shoulder-width stance, your back foot should not be directly behind your front.",
+    "equipment_required": ["Medicine Ball"],
+    "execution": {
+      "main": "Squat down with your standing leg while bracing your core and keeping your chest tall until your back knee almost touches the floor. Pause and push up through your front foot only and return to the starting position. Do not allow your knee to move in or out during the movement.",
+      "steps": []
+    }
+  },
+  "Single Leg Bodyweight Deadlift": {
+    "name": "Single Leg Bodyweight Deadlift",
+    "start_position": "Stand up straight with arms at your side.",
+    "execution": {
+      "main": "Keeping a slight bend at the knee in your planted leg, hinge forward at your hip while allowing the arm opposite to your planted leg to reach down in front of you. Keep your chest tall while raising the opposite leg (keeping it out straight behind you). Hinge forward up to 90-degrees or as far as your body will allow. Keep your head and neck in line with your back throughout the movement. Hinge the hip backwards to the starting position and repeat with the opposite side. Keep your planted leg firm and don\u2019t allow it to twist about.",
+      "steps": []
+    }
+  },
+  "Kettlebell Sumo Deadlift": {
+    "name": "Kettlebell Sumo Deadlift",
+    "start_position": "Place the kettlebell on the floor directly between your feet. Take a moderate wide stance with your feet, point your toes slightly outwards.",
+    "equipment_required": ["Kettlebell"],
+    "execution": {
+      "main": "Push your hips back and hinge forward until your torso is about parallel with the floor. Reach down and grasp the kettlebell handle. Close your hands over the handle using a double overhand grip. Drop your hips below shoulder level and keep your arms fully extended from the kettlebell. Push the floor away from you by driving through your whole foot and extending your knees and hips, lifting the bell with you. Lock out your hips and then lower your body and the kettlebell back down by pushing your hips back and hinging forward at the hip. Return the kettlebell to the floor and then reset to repeat.",
+      "steps": []
+    }
+  },
+  "Good Morning Exercise": {
+    "name": "Good Morning Exercise",
+    "start_position": "Stand up straight with the bar racked against your trapezius muscle and shoulders with hands placed just outside of your shoulders. Position your feet hip-width apart.",
+    "equipment_required": ["Barbell"],
+    "execution": {
+      "main": "Allow your knees to flex slightly while you hinge forward by pushing your hips back behind you. Maintain a neutral spine position. Lower your chest while bracing your core until your chest is parallel with the floor. Extend your hips forward to return to the starting position.",
+      "steps": []
+    }
+  },
+  "Bodyweight Glute Bridge": {
+    "name": "Bodyweight Glute Bridge",
+    "start_position": "Lay flat on your back on the mat. Bend your knees and bring your feet towards you, plant them flat on the ground. Lay your arms out straight at your sides with palms facing down.",
+    "equipment_required": ["Mat"],
+    "execution": {
+      "main": "Driving through your heels, lift your hips off of the ground until your knees, hips, and shoulders create a straight line. Squeeze your glutes and keep your core braced. Pause and then lower your hips back to the starting position.",
+      "steps": []
+    }
+  },
+  "Single Leg Glute Bridge": {
+    "name": "Single Leg Glute Bridge",
+    "start_position": "Lay flat on your back on the mat. Bend your knees and bring your feet towards you, plant them flat on the ground. Lay your arms out straight at your sides with palms facing down.",
+    "equipment_required": ["Mat"],
+    "execution": {
+      "main": "Raise one leg and extend it out straight so that both thighs are parallel with each other. Driving through the heel of your planted foot, lift your hips off of the ground until you create a straight line from your shoulders to the foot of your raised leg - align all of the joints. Squeeze your glutes and keep your core braced. Pause and then lower your hips back to the starting position while keeping the raised leg extended. Repeat with the opposite leg.",
+      "steps": []
+    }
+  },
+  "Banded Glute Bridge": {
+    "name": "Banded Glute Bridge",
+    "start_position": "Position the mini-band around both legs above your knees. Lay flat on your back on the mat. Bend your knees and bring your feet towards you, plant them flat on the ground. Lay your arms out straight at your sides with palms facing down.",
+    "equipment_required": ["Mat", "Mini-Band"],
+    "execution": {
+      "main": "Driving through your heels, lift your hips off of the ground until your knees, hips, and shoulders create a straight line. Squeeze your glutes and keep your core braced. Pause and then lower your hips back to the starting position. Keep the mini-band tight and stretched throughout the whole movement.",
+      "steps": []
+    }
+  },
+  "Duck Walk": {
+    "name": "Duck Walk",
+    "start_position": "Stand with your feet shoulder-width apart.",
+    "execution": {
+      "main": "Squat down into a sitting position by pushing your hips back. Sink into a deep squat without lifting your feet from the floor. Keep your chest tall and brace your core. You can hold your arms out in the air to help with balance. While maintaining the same distance from the floor, take one small step forward with one foot. Repeat with the other foot. You can take steps backwards as well.",
+      "steps": []
+    }
+  },
+  "Bird Dog": {
+    "name": "Bird Dog",
+    "start_position": "Get down onto the mat. Position yourself on your hands and knees. Place your hands directly under your shoulders and your knees right under your hips.",
+    "equipment_required": ["Mat"],
+    "execution": {
+      "main": "While maintaining a neutral spine and bracing your core, extend one arm straight out in front of you and extend the opposite leg backwards until they\u2019re parallel with the ground and you\u2019ve created a straight line with your body. Keep your hips parallel to the ground. Hold this position briefly and then lower back to the starting position. Repeat with the opposite side.",
+      "steps": []
+    }
+  },
+  "Groiners": {
+    "name": "Groiners",
+    "start_position": "Get into the push-up position with your hands directly under your shoulders.",
+    "equipment_required": ["Mat"],
+    "execution": {
+      "main": "Keeping your back flat, step one foot all the way up next to your hand or as close as you can get. You can allow the opposite knee to bend slightly while you lean into the stretch. Hold the stretch for the desired length of time and then repeat with the opposite leg.",
+      "steps": []
+    }
+  },
+  "Fire Hydrants": {
+    "name": "Fire Hydrants",
+    "start_position": "Get down onto the mat. Position yourself on your hands and knees. Place your hands directly under your shoulders and your knees right under your hips.",
+    "equipment_required": ["Mat"],
+    "execution": {
+      "main": "Keeping your back flat and core engaged, lift one leg out to the side keeping the knee bent. Pause and return to the starting position. Repeat with the opposite leg.",
+      "steps": []
+    }
+  },
+  "Smith Machine Hip Thrust": {
+    "name": "Smith Machine Hip Thrust",
+    "start_position": "Position the bench at the entrance of the Smith Machine, parallel with the bar. Place the squat sponge in the center of the bar or place the towel folded on your hips as you lie down. Get under the bar and position your upper back against the bench. Place your feet out in front of you about shoulder-width apart. Point your feet slightly outwards. Make sure the bar is positioned on the crease of your hip.",
+    "equipment_required": [
+      "Smith-Machine",
+      "Bench",
+      "Squat Pad or Towel if needed for padding"
+    ],
+    "execution": {
+      "main": "Place your hands on the bar at your sides. Extend your hips to unrack the bar. Keep your core tight and tuck your chin. Allow your hips to lower towards the floor in order to lower the bar. Don\u2019t sink all the way to the floor, reverse the movement by thrusting your hips and the bar up until you\u2019re parallel with the floor again. Squeeze your glutes at the top while maintaining a straight back. Pause and repeat.",
+      "steps": []
+    }
+  },
+  "Barbell Hip Thrust": {
+    "name": "Barbell Hip Thrust",
+    "start_position": "With the barbell close and parallel to the bench, sit down on the floor with your upper back against the bench. Roll the bar over your legs so that the bar now rests over your hip crease. Bring your feet up closer and place them flat on the floor about shoulder-width apart.",
+    "equipment_required": [
+      "Barbell",
+      "Bench",
+      "Squat Pad or Towel if needed for padding"
+    ],
+    "execution": {
+      "main": "Driving through your whole foot, raise your hips slightly above the ground while gripping the bar at the sides. Keep your chin tucked throughout the movement. Squeeze your glutes to thrust your hips and the bar up until you\u2019re parallel to the ground in a tabletop position. Pause and lower your hips back towards the ground, keeping the movement controlled. Keep your chest in line with your hips. Stop above the ground and repeat.",
+      "steps": []
+    }
+  },
+  "Band Seated Hip Abduction": {
+    "name": "Band Seated Hip Abduction",
+    "start_position": "Place the mini-band around your legs above your knees. Sit on the edge of the bench with feet shoulder-width apart and back straight. Place your hands on the bench at your sides.",
+    "equipment_required": ["Mini-Band & Bench or Chair"],
+    "execution": {
+      "main": "Using your glutes, push your knees outward stretching the band. Pause and return to the starting position.",
+      "steps": []
+    }
+  },
+  "Seated Hip Abduction Machine": {
+    "name": "Seated Hip Abduction Machine",
+    "start_position": "Sit down onto the machine with your knees inside and up against the pads. Pull the pin to release the pads. Grasp the handles at the sides.",
+    "equipment_required": ["Hip Abduction Machine"],
+    "execution": {
+      "main": "Push out against the pads with your knees. When your hips are fully abducted, pause and then return to the starting position.",
+      "steps": []
+    }
+  },
+  "Standing Cable Abduction": {
+    "name": "Standing Cable Abduction",
+    "start_position": "Stand up straight with one shoulder next to the machine. Have the ankle attachment placed on the ankle furthest from the machine. Place the hand closest on the cable machine and the other on your hip.",
+    "equipment_required": ["Cable Machine with Ankle Attachments"],
+    "execution": {
+      "main": "Keeping your leg straight, raise the leg out to your side as high as you can. Pause and return back to the starting position.",
+      "steps": []
+    }
+  },
+  "Bodyweight Frog Pump": {
+    "name": "Bodyweight Frog Pump",
+    "start_position": "Lay down on your back. Bring your feet up close to your glutes and bring the soles up together to create a butterfly position with your legs. Lay your arms on the floor at your sides.",
+    "equipment_required": ["Mat"],
+    "execution": {
+      "main": "Keeping your chin tucked and shoulders on the ground, press down into the floor with the edges of your feet while squeezing your glutes to thrust your hips up. When your shoulders, hips, and knees are aligned, pause at the top and then lower your hips back to the starting position.",
+      "steps": []
+    }
+  },
+  "Smith Machine Frog Pump": {
+    "name": "Smith Machine Frog Pump",
+    "start_position": "Position the bench inside of the Smith Machine, perpendicular to the bar. Place the squat sponge in the center of the bar or place the towel folded on your hips as you lie down on the bench and get under the bar. Position the bar over the crease of your hip. Bring your feet up close to your glutes on the bench and bring the soles up together to create a butterfly position with your legs.",
+    "equipment_required": [
+      "Smith Machine",
+      "Bench",
+      "Squat Pad or Towel if needed for padding"
+    ],
+    "execution": {
+      "main": "Keeping your chin tucked and shoulders against the bench, press down into the bench with the edges of your feet while squeezing your glutes to thrust your hips and push the bar up. Keep your core braced. When your shoulders, hips, and knees are aligned, pause at the top and then lower your hips back to the starting position.",
+      "steps": []
+    }
+  },
+  "Banded Clams": {
+    "name": "Banded Clams",
+    "start_position": "Position the mini-band around your legs just above your knees. Lay down on your side. Keeping your feet in line with your hips, bend your knees to make a 90-degree angle. Rest your head on your arm.",
+    "equipment_required": ["Mat", "Mini-Band"],
+    "execution": {
+      "main": "Keeping your core engaged and your feet together, raise your top knee up as high as you can without lifting the bottom knee from the floor or twisting your hips. Pause and return to the starting position in a controlled manner. Finish your repetitions and repeat on the opposite side.",
+      "steps": []
+    }
+  },
+  "Side Lying Leg Raise": {
+    "name": "Side Lying Leg Raise",
+    "start_position": "Lay down onto the mat on your side. Use the arm on the floor to cushion your head. Bend the leg on the floor to help balance. Place your top hand on the floor in front of you.",
+    "equipment_required": ["Mat"],
+    "execution": {
+      "main": "Keeping the top leg straight and all joints in a straight line, raise it up towards the ceiling. Pause at the top and lower it back down to the starting position. Finish your repetitions and repeat with the opposite side.",
+      "steps": []
+    }
+  },
+  "Glute Ham Raise": {
+    "name": "Glute Ham Raise",
+    "start_position": "Stand over the middle of the machine and position your feet into the ankle pads with your toes against the toe plate while using your hands to brace on the front pads. Allow your knees to fall through a bit below the pads. With the front of your knees pushed into the pads, bring your body up perpendicular to the floor.",
+    "equipment_required": ["Glute Ham Developer (GHD) Machine"],
+    "execution": {
+      "main": "Keeping your back and hips straight and aligned, bend at the knees to lower yourself down against the pads, keeping your arms against your chest. Lower yourself until you\u2019re parallel with the ground and then return to the starting position.",
+      "steps": []
+    }
+  },
+  "Dumbbell Step Up": {
+    "name": "Dumbbell Step Up",
+    "start_position": "Stand up tall in front of the step with dumbbells in each hand at your sides.",
+    "equipment_required": ["Step", "Dumbbells"],
+    "execution": {
+      "main": "Keeping your chest tall and core engaged, step one foot up onto the step and place your whole foot flat on the step. Step the other foot up onto the step. Step back and down off of the step with the second foot you brought up, then step down with the first foot. Repeat with the opposite side.",
+      "steps": []
+    }
+  },
+  "Lateral Mini-Band Walk": {
+    "name": "Lateral Mini-Band Walk",
+    "start_position": "Place the mini-band around your legs just above your knees. Position your feet about shoulder-width apart and ensure there is no slack in the band. Bend your knees slightly, dropping down into an athletic stance in a half-squat position. Distribute your weight throughout both of your feet.",
+    "equipment_required": ["Mini-Band"],
+    "execution": {
+      "main": "Maintaining the half-squat position, take a step sideways with one foot. Follow with the other foot. Take the desired amount of steps to the one side, and then repeat with the opposite side or alternate between each side until all repetitions are completed.",
+      "steps": []
+    }
+  },
+  "Standing Knee Raise": {
+    "name": "Standing Knee Raise",
+    "start_position": "Stand up straight with feet shoulder-width apart. Place your hands on your hips.",
+    "execution": {
+      "main": "With one foot firmly planted on the ground, raise one knee up in front of you until your thigh is parallel with the ground without allowing your hips to twist. Pause and return back to the starting position. Repeat with the opposite leg while remaining in the same spot throughout the duration of all repetitions.",
+      "steps": []
+    }
+  },
+  "Kettlebell Swings": {
+    "name": "Kettlebell Swings",
+    "start_position": "Grip the kettlebell with a double overhand grip. Stand up tall with your arms extended and loose. Engage your core.",
+    "equipment_required": ["Kettlebell"],
+    "execution": {
+      "main": "Soften your knees to lower your glutes back and down, while shifting your weight into your heels. Drive through your heels to explosively drive your hips forward in order to swing the bell upward. Swing the kettlebell up to about chest height with your arms extended. Let the bell fall back down to get ready for the next swing. Brace your body to catch the weight in the bottom position allowing it to swing through your legs and then repeat the swinging motion forward.",
+      "steps": []
+    }
+  },
+  "Standing Cable Kickback": {
+    "name": "Standing Cable Kickback",
+    "start_position": "Stand up tall in front of the step with dumbbells in each hand at your sides.",
+    "equipment_required": ["Cable Machine", "Ankle Attachments"],
+    "execution": {
+      "main": "Keeping your chest tall and core engaged, step one foot up onto the step and place your whole foot flat on the step. Step the other foot up onto the step. Step back and down off of the step with the second foot you brought up, then step down with the first foot. Repeat with the opposite side.",
+      "steps": []
+    }
+  },
+  "Donkey Kicks": {
+    "name": "Donkey Kicks",
+    "start_position": "Get down onto the mat. Position yourself on your hands and knees. Place your hands directly under your shoulders and your knees right under your hips. Position your head to look at the floor.",
+    "equipment_required": ["Mat"],
+    "execution": {
+      "main": "Engage your core and keep your back flat in a tabletop position. Keeping the 90-degree bend in your knee, lift your leg back and up so that your foot goes towards the ceiling. Try to bring your thigh to parallel with the floor without twisting your hips or rounding your back, stop sooner if this occurs. Return the leg to the starting position.",
+      "steps": []
+    }
+  },
+  "Side Lying Hip Raise": {
+    "name": "Side Lying Hip Raise",
+    "start_position": "Lay down on your side with your legs stacked. Prop yourself up by placing your elbow and forearm flat onto the ground, with your arm pointed away from you. Stack your elbow under your shoulder. Bend your knees to a 90-degree angle so that your feet are behind you, keeping them stacked.",
+    "equipment_required": ["Mat"],
+    "execution": {
+      "main": "Keeping your feet together and core engaged, raise your hips straight up from the ground. Keep your body in line throughout the movement. In the same motion, contract your glutes to lift your top knee towards the ceiling, keeping your bottom knee on the floor. Pause and lower yourself back down to the starting position.",
+      "steps": []
+    }
+  },
+  "Squat Sit to Reach": {
+    "name": "Squat Sit to Reach",
+    "start_position": "Stand up straight with feet about shoulder-width apart.",
+    "execution": {
+      "main": "Lower yourself down just like a squat by driving your hips backwards. Lower yourself all the way down into a deep, sitting squat position. While sitting in the bottom position, take one arm and seat the elbow into the same side knee. Place that hand on the ground outside of the foot. With your opposite arm, reach up and back towards the sky twisting your upper body. Bring your arm back down and repeat with the opposite side. When finished, push up through your feet to return back to standing position. Avoid letting your knees cave in.",
+      "steps": []
+    }
+  }
+}
