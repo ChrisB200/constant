@@ -1,0 +1,11 @@
+.container {
+  margin-top: calc(10dvh + 5rem);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+

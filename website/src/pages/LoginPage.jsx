@@ -40,6 +40,7 @@ function Login() {
             navigate("/")
           })
           .catch((error) => {
+          alert(error)
             if (error.status === 401) {
               setError("invalid-credentials");
             } else if (error.status === 500) {

@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  padding: 2rem 2rem 0rem 2rem;
+  flex-direction: column;
+}
+
+.searchInfo {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 100%;
+  gap: 1.5rem;
+}
+
+.searchInfo > input {
+  box-sizing: border-box;
+  border: 1px solid var(--stroke);
+  padding: 1rem;
+}
+
+::placeholder {
+  color: var(--secondary);
+  opacity: 1;
+}
+
+.amount {
+  font-weight: bold;
+}
+
+.exercises {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

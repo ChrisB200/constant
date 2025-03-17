@@ -1,4 +1,6 @@
-from flask import Flask, request, jsonify
+import os
+
+from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 from flask_bcrypt import Bcrypt
 from flask_migrate import Migrate
@@ -9,7 +11,7 @@ from app.routes import routes
 from app.models import db, User
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="static")
 app.config.from_object(ApplicationConfig)
 CORS(app, supports_credentials=True,
      resources={r"/*": {"origins": "*"}})
@@ -29,3 +31,13 @@ app.register_blueprint(routes)
 @login_manager.user_loader
 def load_user(user_id):
     return User.query.get(user_id)
+
+
+@app.route("/images/illustrations/<muscle>/<exercise>", methods=["GET"])
+def serve_image(muscle, exercise):
+    image_path = f"static/images/illustrations/{muscle}"
+    
+    path = os.path.join(image_path, f"{exercise}.png")
+
+    return send_file(path), 200
+

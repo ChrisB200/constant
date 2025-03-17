@@ -1,0 +1,82 @@
+.setContainer {
+  width: 7rem;
+  border: 1px solid var(--stroke);
+  border-radius: 7px;
+  aspect-ratio: 1;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.add {
+  font-weight: bold;
+  font-size: var(--font-800);
+}
+
+.header {
+  font-size: var(--font-700);
+}
+
+.illustration {
+  position: relative;
+  background-color: var(--secondary);
+  width: 100%;
+  height: 40%;
+}
+
+.exercise {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: var(--primary);
+  border: solid 1px var(--stroke);
+  padding: 0.5rem 2rem;
+  border-radius: 4px;
+}
+
+.illustration > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sets {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bar > button {
+  width: 3rem;
+  height: 3rem;
+  aspect-ratio: 1;
+  background-color: var(--accent);
+  color: var(--primary);
+  border: none;
+  border-radius: 4px;
+  font-size: var(--font-700);
+  font-weight: bold;
+}
+
+.bar > button:active {
+  opacity: 0.5;
+}

@@ -7,14 +7,22 @@
   width: 100%;
 }
 
+h1 {
+  color: var(--accent);
+}
+
+body {
+  background-color: var(--secondary);
+}
+
 form {
   display: flex;
   flex-direction: column;
   padding: 3rem;
   gap: 3rem;
   margin: 1rem;
-  border: 1px solid var(--secondary-2);
-  background-color: var(--secondary);
+  border: 1px solid var(--stroke);
+  background-color: var(--primary);
   border-radius: 5px;
   text-align: center;
 }
@@ -33,7 +41,8 @@ form {
   top: -9px;
   left: 15px;
   padding: 0 2px;
-  background-color: var(--secondary);
+  background-color: var(--primary);
+  color: var(--accent);
 }
 
 .input {
@@ -49,12 +58,12 @@ form {
 }
 
 hr {
-  color: var(--secondary-2);
+  color: var(--stroke);
 }
 
 .create {
   background-color: var(--accent);
-  color: var(--text);
+  color: var(--primary);
   border-radius: 4px;
   border: solid 1px var(--accent);
   font-size: var(--font-400);
@@ -66,7 +75,7 @@ hr {
 
 .create:hover {
   cursor: pointer;
-  background-color: var(--secondary);
+  background-color: var(--primary);
   color: var(--accent);
 }
 

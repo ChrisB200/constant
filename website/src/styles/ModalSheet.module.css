@@ -1,0 +1,22 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  z-index: 2;
+  opacity: 0.5;
+}
+
+.container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 85dvh;
+  z-index: 3;
+  overflow-y: scroll;
+  background-color: var(--primary);
+  border-radius: 10px;
+}

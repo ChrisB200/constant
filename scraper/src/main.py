@@ -5,6 +5,10 @@ import playwright
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright, Page, expect
 import json
+from concurrent.futures import ThreadPoolExecutor
+import requests
+import io
+from PIL import Image
 
 from dotenv import load_dotenv
 
@@ -147,6 +151,8 @@ def scrape_category(page, name, links):
 
     return exercises
 
+
+
 def db_commit():
     filenames = [
         "Abdominals.json",
@@ -221,6 +227,85 @@ def db_commit():
                     values = (step, count, execution_id)
                     cursor.execute(qry, values)
 
+def to_kebab(string):
+    return "-".join(string.strip().lower().split())
+
+def img_url():
+    with connect_sql() as cursor:
+        qry = """
+            SELECT * FROM exercise
+        """
+        cursor.execute(qry)
+        exercises = cursor.fetchall()
+
+        qry = """
+            UPDATE exercise
+            SET img_url = %s
+            WHERE id = %s
+        """
+        for exercise in exercises:
+            values = (f"{exercise['main_muscle'].lower()}/{to_kebab(exercise['name'])}", exercise["id"])
+            cursor.execute(qry, values)
+def img_down(muscle, exercise, link):
+    try:
+        response = requests.get(link).content
+        img_file = io.BytesIO(response)  # Convert response to a file-like object
+        image = Image.open(img_file)  # Open the image correctly
+
+        # Ensure the muscle directory exists
+        muscle = muscle.lower()
+        os.makedirs(muscle, exist_ok=True)
+
+        # Save the image
+        img_path = f"{muscle}/{to_kebab(exercise)}.png"
+        with open(img_path, "wb") as f:
+            image.save(f, "PNG")
+            print(f"Saved: {img_path}")
+    except Exception as e:
+        print(f"Error downloading {exercise}: {e}")
+
+def download():
+    with open("links.json", "r") as file:
+        links = json.load(file)
+
+    # Prepare tasks for executor
+    tasks = [
+        (muscle, exercise, link)
+        for muscle, exercises in links.items()
+        for exercise, link in exercises.items()
+    ]
+
+    # Download images in parallel
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        executor.map(lambda args: img_down(*args), tasks)
+
+
+def scrape_images(headless=True):
+    with sync_playwright() as p:
+        browser = p.firefox.launch(headless=headless)
+        page = browser.new_page()
+        page.goto(GUIDES_URL)
+
+        categories = get_categories(page)
+        imgs = {}
+        for muscle, category in categories.items():
+            for link in category:
+                name = custom_strip(page.locator("h1").text_content())
+                page.goto(f"{URL}{link}")
+                all_imgs = page.locator("img").all()
+                
+                if not imgs.get(muscle):
+                    imgs[muscle] = {}
+
+                for img in all_imgs:
+                    alt = img.get_attribute("alt")
+                    if "illustration" in alt.lower():
+                        src = img.get_attribute("src")
+                        imgs[muscle][name] = src
+                        print(src)
+
+    with open("links.json", "w") as file:
+        json.dump(imgs, file)
 
 
 def main(headless=False, is_scraping=True):
@@ -240,4 +325,7 @@ def main(headless=False, is_scraping=True):
 
 
 if __name__ == "__main__":
-    main(is_scraping=False)
+    #scrape_images()
+    #download()
+    img_url()
+    #main(is_scraping=False)
