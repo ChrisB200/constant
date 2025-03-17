@@ -1,6 +1,6 @@
 version: '3'
 services:
-  flask-api:
+  api:
     build:
       context: ./api
       dockerfile: Dockerfile
