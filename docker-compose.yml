@@ -1,0 +1,34 @@
+version: '3'
+services:
+  flask-api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: api
+    restart: always
+    ports:
+      - "7002:8000"
+    networks:
+      - app-network
+    environment:
+      - DB_USERNAME=${DB_USERNAME}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_HOST=${DB_HOST}
+      - DB_NAME=${DB_NAME}
+      - SECRET_KEY=${SECRET_KEY}
+
+
+  react-app:
+    build:
+      context: ./website
+      dockerfile: Dockerfile
+    container_name: website
+    restart: always
+    ports:
+      - "7003:3000"
+    networks:
+      - app-network
+networks:
+  app-network:
+    driver: bridge
+
