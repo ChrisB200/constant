@@ -41,3 +41,6 @@ def serve_image(muscle, exercise):
 
     return send_file(path), 200
 
+@app.route("/")
+def test():
+    return jsonify("hey")
